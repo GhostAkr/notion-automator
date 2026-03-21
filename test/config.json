@@ -1,0 +1,15 @@
+{
+	"internal_token": "api token",
+	"set_properties": [
+		{
+			"page_id": "123",
+			"property_type": "number",
+			"new_value": "123456"
+		},
+		{
+			"page_id": "456",
+			"property_type": "number",
+			"new_value": "7575.46"
+		}
+	]
+}
