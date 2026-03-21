@@ -62,5 +62,6 @@ func TestGetConfigPanicsWhenJsonIsMalformed(t *testing.T) {
 		}
 	}()
 
+	// Act
 	jsonConfigProvider.GetConfig("./../../../test/config_invalid.json")
 }
