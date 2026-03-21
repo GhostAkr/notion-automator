@@ -1,7 +1,6 @@
 package configprovider
 
 type ConfigMain struct {
-	NotionToken string              `json:"notion_token"`
 	SetProperties []ConfigSetProperty `json:"set_properties"`
 }
 

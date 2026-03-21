@@ -12,9 +12,6 @@ func TestGetConfigReadsValidConfig(t *testing.T) {
 	var config ConfigMain = jsonConfigProvider.GetConfig("./../../../test/config.json")
 
 	// Assert
-	if config.NotionToken != "notion api token" {
-		t.Errorf("NotionToken == %s, want \"notion api token\"", config.NotionToken)
-	}
 	if len(config.SetProperties) != 2 {
 		t.Errorf("len(SetProperties) == %d, want 2", len(config.SetProperties))
 	}
